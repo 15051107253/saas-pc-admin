@@ -1,0 +1,51 @@
+@import './index.scss';
+.login-wrap {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  background-image: url('../../assets/img/bj.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  .main {
+    width: 900px;
+    position: relative;
+    margin: 100px auto;
+    overflow: hidden;
+    .login-wrap-content {
+      display: flex;
+      &-left {
+        margin-top: 20px;
+        height: 392px;
+        width: 424px;
+        background-image: url('../../assets/img/d.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        animation: roate 15s linear infinite;
+      }
+      &-right {
+        flex: 1;
+        margin-left: 50px;
+        background-image: url('../../assets/img/e.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
+
+.login-container {
+  padding: 120px 30px 0;
+  &-item {
+    margin-bottom: 40px;
+  }
+}
+
+@keyframes roate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

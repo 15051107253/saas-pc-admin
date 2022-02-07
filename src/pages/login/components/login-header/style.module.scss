@@ -1,0 +1,18 @@
+@import '../../index.scss';
+
+.login-header {
+  h2 {
+    font-size: 36px;
+    color: $system-color;
+    text-align: center;
+    margin: 30px 0 5px;
+  }
+  &-bg {
+    background-image: url('../../../../assets/img/head.gif');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85px;
+    text-align: center;
+  }
+}
